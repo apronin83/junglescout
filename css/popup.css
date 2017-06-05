@@ -1,0 +1,170 @@
+/*
+ * @Author: Mohammad M. AlBanna
+ * Copyright © 2017 Jungle Scout
+*/
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+b {
+    color: #b06703;
+}
+
+.content-table {
+    height: 420px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 800px;
+}
+
+.logo-text{
+    float: left;
+    width: 230px;
+    height: 50px;
+    line-height: 65px;
+    margin-left: 15px;
+}
+
+#jsLogo{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-top: 5px;
+}
+
+.title-description{
+    float: left;
+}
+
+.container {
+    width: 800px;
+    background-color: #F7F7FC;
+}
+
+a {
+    color: #044c89;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 1px solid #CACACA;
+    overflow: hidden;
+    height: 50px;
+    background-color: #DFDFDF;
+    padding: 5px;
+}
+
+.main-screen{
+    text-align: center;
+    width: 700px;
+    margin: 22% auto;
+    line-height: 35px;
+}
+
+.main-screen h1{
+    font-size: 22px;
+    color: #595959;
+    margin-bottom: 40px;
+}
+
+.main-screen #request_access_store{
+    background-color: #f89920;
+    padding: 5px 50px;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+    line-height: 40px;
+    border-radius: 5px;
+    display: none;
+}
+
+.main-screen #request_access_store:hover{
+    opacity: 0.9;
+}
+
+.main-screen p{
+    font-size: 16px;
+    font-family: sans-serif,arial;
+    color: #575757;
+}
+
+.summary-header{
+    float: right;
+    text-align: center;
+}
+.summary-container{
+    padding: 8px 20px;
+    background-color: #CDCDCD;
+    display: inline-block;
+    margin: 0px;
+    border: 1px solid #C5C5C5;
+    border-radius: 5px;
+}
+
+.summary-container span{
+    display: block;
+    font-size: 14px;
+    color: #4D4D4D;
+    font-family: sans-serif, Arial;
+}
+
+.summary-title{
+    font-weight: bold;
+}
+
+.footer {
+    height: 30px;
+    border-top: 1px solid #CACACA;
+    background-color: #DFDFDF;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    z-index: 100;
+}
+
+.footer a{
+    line-height: 29px;
+    font-size: 14px;
+}
+
+.footer a:first-child{
+    float: left;
+    margin-left: 5px;
+}
+
+.footer a:last-child{
+    float: right;
+    margin-right: 5px;
+}
+
+.footer a:last-child img{
+    vertical-align: text-top;
+}
+
+@font-face {
+    font-family: hoeflerText;
+    src: url(chrome-extension://__MSG_@@extension_id__//fonts/hoefler_text_italic.ttf);
+}
+
+.none-info{
+    font-family: hoeflerText;
+    color: #b5b5b5;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+}

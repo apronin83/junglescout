@@ -1,0 +1,100 @@
+<!-- 
+    @Author: Mohammad M. AlBanna
+    Copyright © 2017 Jungle Scout
+-->
+<section class="container">
+    <span class="closeJsPopup"></span>
+    <span class="reFreshJsPopup"></span>
+    <header class="header">
+        <div class="logo-text">
+            <a target="_blank" href="https://www.junglescout.com/blog/"><img id="jsLogo" src="" alt="Jungle Scout Blog"/></a>
+        </div>
+        <div class="summary-header">
+            <div class="summary-container">
+                <span class="summary-title">Avg. Sales</span>
+                <span class="summary-result js-avg-sales"><i class="none-info">--</i></span>
+            </div>
+
+            <div class="summary-container">
+                <span class="summary-title">Avg. Sales Rank</span>
+                <span class="summary-result js-avg-sales-rank"><i class="none-info">--</i></span>
+            </div>
+
+            <div class="summary-container">
+                <span class="summary-title">Avg. Price</span>
+                <span class="summary-result js-avg-price"><i class="none-info">--</i></span>
+            </div>
+
+            <div class="summary-container">
+                <span class="summary-title">Avg. # Reviews</span>
+                <span class="summary-result js-avg-reviews"><i class="none-info">--</i></span>
+            </div>
+        </div>
+    </header>
+    <div class="content-table">
+        <div class="product-image"><img src="" /></div>
+        <div class="js-profit-calc-section">
+            <span class="closeProfitCalc"></span>
+            <div class="js-profit-calc-content"></div>
+        </div>
+        <div class="js-filter-section"></div>
+        <div class="js-options-section"></div>
+        <div class="js-product-history-section">
+            <img src="" />
+            <span class="closeProductHistory"></span>
+        </div>
+        <div class="js-trend-chart-section"><iframe src="" width="520" height="330"></iframe><span class="closeTrendChart"></span></div>
+        <div class="js-floating-message info">
+            <button type="button" class="close">×</button>
+            <p></p> <!-- Handle respond message -->
+        </div>
+        <table id="js-table" class="tablesorter" data-firstRow="" data-searchTerm="" data-extractUrl="">
+            <thead>
+                <tr>
+                    <th data-tooltip="Rank in the search results" class="js-number sorter-digit">#</th>
+                    <th data-tooltip="Click the orange plus sign below to add this product to your tracker inside of the web app" class="js-more sorter-false csv-hiddenable screenshot-hiddenable" style="font-size:16px">+</th>
+                    <th class="js-product-name sorter-text screenshot-hiddenable">Product Name</th>
+                    <th class="js-brand sorter-text screenshot-hiddenable">Brand</th>
+                    <th data-tooltip="The current price in the buy box" class="js-price sorter-currency">Price</th>
+                    <th data-tooltip="The listings parent category" class="js-category sorter-text screenshot-hiddenable">Category</th>
+                    <th data-tooltip="The best sellers rank in the parent category" class="js-rank sorter-rank">Rank</th>
+                    <th data-tooltip="30 Day Unit Sales Estimate" class="js-est-sales sorter-digit">Est. Sales</th>
+                    <th data-tooltip="30 Day Revenue Estimate" class="js-est-revenue sorter-currency">Est. Revenue</th>
+                    <th data-tooltip="The number of reviews that have been left on this listing" class="js-reviews sorter-digit"># of Reviews</th>
+                    <th data-tooltip="The average review star rating" class="js-rating sorter-digit">Rating</th>
+                    <th data-tooltip="The type of seller that currently controls the buy box" class="js-bb-seller sorter-text">BB Seller</th>
+                    <th data-tooltip="The total FBA fees Amazon changes for this product at the current price" class="js-fba-fee sorter-currency">FBA Fee</th>
+                    <th data-tooltip="Product Size Tier" class="js-tier sorter-text">Tier</th>
+                    <th data-tooltip="The number of sellers currently selling on the listing" class="js-new-sellers sorter-digit">Sellers</th> 
+                    <th data-tooltip="Length" class="js-item-length sorter-digit">L</th>
+                    <th data-tooltip="Width" class="js-item-width sorter-digit">W</th>
+                    <th data-tooltip="Height" class="js-item-height sorter-digit">H</th>
+                    <th data-tooltip="Product Weight" class="js-item-weight sorter-digit">lbs</th>
+                    <th data-tooltip="The payout to the seller after subtracting Amazon's FBA fees" class="js-net sorter-currency">Net</th>
+                    <th class="js-asin sorter-false hidden hiddenable">ASIN</th> <!-- for CSV -->
+                    <th class="js-link sorter-false hidden hiddenable">Link</th> <!-- for CSV -->
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div class="main-screen">
+            <h1>Jungle Scout is not able to pull product information from this page.  Please try a different page.</h1>
+        </div>
+    </div>
+    <footer class="footer">
+        <!-- SearchPage | BestSellers -->
+        <a href="#" id="extractResults" data-section="SearchPage"></a>
+        <div class="export-section">
+           <a href="#" id="csvExport">Export CSV &#x2193;</a>
+        </div>
+        <a href="#" id="filterPopup" >Filter</a>
+        <a href="#" id="optionsPage">Options</a>
+        <a href="#" id="trendPopup">Trend</a>
+        <a class="float-right" href="https://www.facebook.com/groups/673668379421814/" target="_blank">
+            <img id="jsFbImage" src="" height="20" width="20" /> 
+        </a>
+        <a class="float-right" href="#" id="screenshotPage">
+            <img id="jsScreenshotImage" src="" height="20" width="20" /> 
+        </a>
+    </footer>
+</section>

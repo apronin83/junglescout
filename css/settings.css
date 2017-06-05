@@ -1,0 +1,159 @@
+/*
+ * @Author: Mohammad M. AlBanna
+ * Copyright © 2017 Jungle Scout
+*/
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+body{
+	background-color: #E9E9E9!important;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.settings-container{
+	position: relative;
+	text-align: center;
+	margin-top: 5%;
+	width: 500px;
+	border: 1px solid #C9C9C9;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	background-color: #FAFAFA;	
+	padding:20px;
+}
+
+.settings-container .message{
+	display: none;
+	padding: 8px 14px 8px 14px;
+	margin-bottom: 0px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #FCF8E3;
+	border: 1px solid #FBEED5;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.settings-container .message.error{
+	color: #B94A48;
+	background-color: #F2DEDE;
+	border-color: #EED3D7;
+}
+  
+
+.settings-container .message.success{
+	color: #468847;
+	background-color: #DFF0D8;
+	border-color: #D6E9C6;
+}
+
+.settings-container h2{
+	color: #595959;
+	line-height: 40px;
+	font-size: 31.5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+table{
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #595959;
+	font-weight: bold;
+	width: 100%;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+
+table tr:first-child{
+	text-align: center;
+	width: 100%;
+	
+}
+
+table a{
+	color: #F89A21;
+	font-size: 14px;
+}
+
+table td{
+	text-align: left;
+}
+
+table p{
+	display: inline-block;
+	margin: 0px;
+}
+
+p.red-text{
+	color: #FD2929;
+}
+
+.orange-btn{
+    margin-top: 20px;
+    background-color:#FEBA64;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    display:inline-block;
+    cursor:pointer;
+    color:#333 !important;
+    font-family:arial;
+    font-size:13px;
+    font-weight: bold;
+    padding:6px 24px;
+    text-decoration:none;
+    outline: none;
+    width: 60px;
+}
+
+.orange-btn:hover {
+    background-color:#FCA02B;
+}
+
+.gray-btn {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color:#DFDFDF;
+    border-radius:3px;
+    display:inline-block;
+    cursor:pointer;
+    color:#333 !important;
+    font-family:arial;
+    font-size:13px;
+    font-weight: bold;
+    padding:6px 24px;
+    text-decoration:none;
+    outline: none;
+    width: 60px;
+}
+.gray-btn:hover{
+    background-color:#CDCDCD;
+}
+
+a{
+	text-decoration: none;
+	color: #595959;
+	font-weight: bold;
+}
+
+.underneath-text{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.underneath-text p{
+	margin: 4px;
+	color: #444;
+	font-size: 14px;
+}
+
+.report-problem{
+	font-size: 16px;
+}
+

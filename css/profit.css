@@ -1,0 +1,97 @@
+/*
+ * @Author: Mohammad M. AlBanna
+ * Copyright © 2017 Jungle Scout
+*/
+
+.js-profit-calc-section{
+    position: absolute;
+    width: 400px;
+    background-color: #FDFDFD;
+    border-radius: 10px;
+    border: 1px solid #CFCFCF;
+	top: 25%;
+	left: 30%;
+	box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.3);
+	display: none;
+}
+
+.js-profit-calc-section h2{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 10px 0px 5px 0px;
+    padding: 1px 20px;
+}
+
+.js-profit-calc-section hr{
+	margin-bottom: 5px !important;
+	background-color: rgba(0, 0, 0, 0) !important;
+    display: block !important;
+    height: 1px !important;
+    border-width: 0px !important;
+    border-top: 1px solid #E7E7E7 !important;
+    line-height: 19px !important;
+}
+
+.js-profit-table{
+	border-collapse: collapse !important;
+	margin-bottom: 5px !important;
+}
+
+.js-profit-table td{
+	font-weight: bold;
+	font-size: 14px;
+	color: #4D4D4D;
+	font-family: sans-serif, Arial;
+	padding: 3px 10px !important;
+}
+
+.js-profit-table  tr:nth-child(odd){
+    background-color: white;
+}
+
+.js-profit-table  tr:nth-child(even){
+    background-color: #F5F5F5;
+}
+
+
+.js-profit-calc-section .btn-container{
+	text-align: center;
+	border-top: 1px solid #ECECEC;
+}
+
+.js-profit-calc-section input[type="number"]{
+	width: 65px !important;
+	height: 15px !important;
+	text-align: center !important;
+	box-shadow: none !important;
+	margin-left: 5px !important;
+	padding: 2px !important;
+	border: 1px solid #A6A6A6 !important;
+    border-radius: 3px !important;
+}
+
+.js-profit-calc-section .orange-btn{
+	float: left;
+	margin-left: 20px !important;
+	margin-top: 5px !important;
+}
+
+.js-profit-calc-section .profit-result{
+	display: inline-block;
+    float: right;
+    margin: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.profit-product-name{
+	box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 230px;
+    width: 230px;
+}

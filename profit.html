@@ -1,0 +1,58 @@
+<!-- 
+    @Author: Mohammad M. AlBanna
+    Copyright © 2017 Jungle Scout
+-->
+
+<h2>FBA Profit Calculator</h2>
+<hr />
+<table class="js-profit-table">
+	<tr>
+		<td>Product Name:</td>
+		<td class="profit-product-name"></td>
+	</tr>
+	<tr>
+		<td>Weight:</td>
+		<td class="profit-product-weight"></td>
+	</tr>
+	<tr>
+		<td>Dimensions:</td>
+		<td class="profit-product-dimensions"></td>
+	</tr>
+	<tr>
+		<td>Tier:</td>
+		<td class="profit-product-tier"></td>
+	</tr>
+	<tr>
+		<td>Price:</td>
+		<td><span class="current-currency"></span><input type="number" min="0" pattern="[0-9]" name="profitProductPrice"></td>
+	</tr>
+	<tr>
+		<td>FBA Fullfilment Fee:</td>
+		<td class="profit-product-fba"></td>
+	</tr>
+	<tr>
+		<td>Referral Fee:</td>
+		<td class="profit-product-referral-fee"></td>
+	</tr>
+	<tr>
+		<td>Variable Closing Fees:</td>
+		<td class="profit-product-closing-fee"></td>
+	</tr>
+	<tr>
+		<td>Total FBA Fee:</td>
+		<td class="profit-product-total-fba"></td>
+	</tr>
+	<tr>
+		<td>Net:</td>
+		<td class="profit-product-net"></td>
+	</tr>
+	<tr>
+		<td>Product Cost:</td>
+		<td><span class="current-currency"></span><input type="number" min="0" pattern="[0-9]" name="productCost" value="0.00"></td>
+	</tr>
+</table>
+
+<div class="btn-container">
+    <a class="orange-btn" id="jsCalcProfitButton" href="#">Calculate Profit</a>
+    <p class="profit-result">--</p>
+</div>

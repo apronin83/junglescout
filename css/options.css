@@ -1,0 +1,67 @@
+/*
+ * @Author: Mohammad M. AlBanna
+ * Copyright © 2017 Jungle Scout
+*/
+
+.js-options-section{
+    position: absolute;
+    width: 600px;
+    background-color: #FDFDFD;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #CFCFCF;
+	top: 25%;
+	left: 20%;
+	box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.3);
+	display: none;
+}
+
+.js-options-section h2{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 10px 0px 5px 0px;
+    padding: 1px 20px;
+}
+
+
+.js-options-section .columns-section label{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.js-options-section b, .js-options-section strong{
+	display: block;
+}
+
+.js-options-section hr{
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #EEE !important;
+  border-bottom: 1px solid #FFF !important;
+  display: block;
+}
+
+.js-options-section .column-check{
+	width: 580px;
+	line-height: 25px;
+	padding: 0px 10px;
+}
+
+.js-options-section .column-check input{
+	position: relative;
+	top: 2px;
+	outline: none;
+	vertical-align: baseline !important;
+	margin: 5px !important;
+}
+
+
+.js-options-section .buttons-section{
+	text-align: center;
+	border-top: 1px solid #EEE;
+	margin-top: 10px;
+}
+
+

@@ -1,0 +1,38 @@
+<!-- 
+    @Author: Mohammad M. AlBanna
+    Copyright © 2017 Jungle Scout
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/login.css" />
+		<script type="text/javascript" src="js/libraries/jquery.js"></script>
+		<script type="text/javascript" src="js/auth.js"></script>
+		<title>Login to Jungle Scout Pro</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	</head>
+	<body>
+		<div class="container">
+			<form id="jsLoginForm">
+				<img class="jsLogo" src="images/128.png"  />
+				<h2>Please sign in</h2>
+				<label for="username">
+					Email <input placeholder="example@gmail.com" type="text" id="username" name="username" />
+				</label>
+
+				<label for="password">
+					Password <input id="password" placeholder="Password" type="password" name="password" />
+				</label>
+
+				<a class="lost-password" href="https://members.junglescout.com/users/password/new" target="_blank">Forgot Password?</a>
+				<a class="orange-btn" id="submit"/>Submit</a>
+				<p class="message"></p>
+			</form>
+		</div>
+		<div class="underneath-text">
+			<p>Haven't purchased JS yet? <a href="https://www.junglescout.com" target="_blank">Sign up at www.JungleScout.com</a></p>
+			<p><a href="mailto:support@junglescout.com">support@junglescout.com</a></p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,115 @@
+/*
+ * @Author: Mohammad M. AlBanna
+ * Copyright © 2017 Jungle Scout
+*/
+
+.js-filter-section{
+    position: absolute;
+    width: 400px;
+    background-color: #FDFDFD;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #CFCFCF;
+	top: 25%;
+	left: 30%;
+	box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.3);
+	display: none;
+}
+
+.js-filter-section .js-filter-table-container{
+	width: 400px;
+	max-height: 220px;
+}
+
+.js-filter-section h2{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 10px 0px 5px 0px;
+    padding: 1px 20px;
+}
+
+.js-filter-section hr{
+	margin-bottom: 5px !important;
+	background-color: rgba(0, 0, 0, 0) !important;
+    display: block !important;
+    height: 1px !important;
+    border-width: 0px !important;
+    border-top: 1px solid #E7E7E7 !important;
+    line-height: 19px !important;
+}
+
+.js-filter-table{
+	border-collapse: collapse !important;
+}
+
+.js-filter-table td{
+	font-weight: bold;
+	font-size: 14px;
+	color: #4D4D4D;
+	font-family: sans-serif, Arial;
+	padding: 3px 10px !important;
+}
+
+.js-filter-table td:nth-child(1){
+	width: 100px !important;
+	max-width: 100px !important;
+}
+
+.js-filter-table td:nth-child(3){
+	width: 50px !important;
+	max-width: 50px !important;
+}
+
+.js-filter-table input[type="number"]{
+	width: 65px !important;
+	height: 15px !important;
+	text-align: center !important;
+	box-shadow: none !important;
+	margin-left: 5px !important;
+	padding: 2px !important;
+	border: 1px solid #A6A6A6 !important;
+    border-radius: 3px !important;
+}
+
+.js-filter-table input[type="checkbox"]:nth-child(1){
+	margin-left: 5px !important;
+	box-shadow: none !important;
+  	margin-right: 5px !important;
+}
+
+.js-filter-table input[type="checkbox"]:nth-child(2), .js-filter-table input[type="checkbox"]:nth-child(3){
+	margin-left: 30px !important;
+  	margin-right: 5px !important;
+}
+
+.js-filter-table input:focus{
+	border: 1px solid #A6A6A6 !important;
+}
+
+.js-filter-section .btn-container{
+	text-align: center;
+	border-top: 1px solid #ECECEC;
+}
+
+.dataTables_filter, .dataTables_info { display: none; }
+
+.js-filter-section .message{
+	display: none;
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 6px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #FCF8E3;
+	border-top: 1px solid #FBEED5;
+	border-bottom: 1px solid #FBEED5;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+
+.js-filter-section .message.info{
+  color: #3A87AD;
+  background-color: #D9EDF7;
+  border-color: #BCE8F1
+}

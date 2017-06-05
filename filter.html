@@ -1,0 +1,89 @@
+<!-- 
+    @Author: Mohammad M. AlBanna
+    Copyright © 2017 Jungle Scout
+-->
+
+<h2>Filters</h2>
+<hr />
+<div class="js-filter-table-container">
+    <table class="js-filter-table">
+        <tr class="price-column">
+            <td>Price:</td>
+            <td><span class="current-currency"></span><input type="number" min="0" pattern="[0-9]" name="minPrice"></td>
+            <td>To</td>
+            <td><span class="current-currency"></span><input type="number" min="0" pattern="[0-9]" name="maxPrice"></td>
+        </tr>
+        <tr class="reviews-column">
+            <td>Reviews:</td>
+            <td>&nbsp;&nbsp;<input type="number" name="minReviews"></td>
+            <td>To</td>
+            <td>&nbsp;&nbsp;<input type="number" name="maxReviews"></td>
+        </tr>
+        <tr class="rank-column">
+            <td>Rank:</td>
+            <td>&nbsp;&nbsp;<input type="number" min="0" pattern="[0-9]" name="minRank"></td>
+            <td>To</td>
+            <td>&nbsp;&nbsp;<input type="number" min="0" pattern="[0-9]" name="maxRank"></td>
+        </tr>
+        <tr class="est-sales-column">
+            <td>Est. Sales:</td>
+            <td>&nbsp;&nbsp;<input type="number" min="0" pattern="[0-9]" name="minEstSales"></td>
+            <td>To</td>
+            <td>&nbsp;&nbsp;<input type="number" min="0" pattern="[0-9]" name="maxEstSales"></td>
+        </tr>
+        <tr class="est-revenue-column">
+            <td>Est. Revenue:</td>
+            <td><span class="current-currency"></span><input type="number" min="0" pattern="[0-9]" name="minEstRevenue"></td>
+            <td>To</td>
+            <td><span class="current-currency"></span><input type="number" min="0" pattern="[0-9]" name="maxEstRevenue"></td>
+        </tr>
+        <tr class="rating-column">
+            <td>Rating:</td>
+            <td>&nbsp;&nbsp;<input type="number" min="0" pattern="[0-9]" name="minRate"></td>
+            <td>To</td>
+            <td>&nbsp;&nbsp;<input type="number" min="0" pattern="[0-9]" name="maxRate"></td>
+        </tr>
+        <tr class="bb-seller-column">
+            <td>BB Seller:</td>
+            <td colspan="3">
+                <input type="checkbox" checked name="amz">AMZ 
+                <input type="checkbox" checked name="fba">FBA 
+                <input type="checkbox" checked name="merch">Merch
+            </td>
+        </tr>
+        <tr class="weight-column">
+            <td>Weight:</td>
+            <td>&nbsp;&nbsp;<input type="number" min="0" pattern="[0-9]" name="minWeight"></td>
+            <td>To</td>
+            <td>&nbsp;&nbsp;<input type="number" min="0" pattern="[0-9]" name="maxWeight"></td>
+        </tr>
+        <tr class="sellers-column">
+            <td>Sellers:</td>
+            <td>&nbsp;&nbsp;<input type="number" min="0" pattern="[0-9]" name="minSeller"></td>
+            <td>To</td>
+            <td>&nbsp;&nbsp;<input type="number" min="0" pattern="[0-9]" name="maxSeller"></td>
+        </tr>
+        <tr class="tier-column">
+            <td>Tier:</td>
+            <td colspan="3">
+                <input type="checkbox" checked name="tierStandard">Standard 
+                <input type="checkbox" checked name="tierOversize">Oversize 
+            </td>
+        </tr>
+        <tr class="net-column">
+            <td>Net:</td>
+            <td><span class="current-currency"></span><input type="number" min="0" pattern="[0-9]" name="minNet"></td>
+            <td>To</td>
+            <td><span class="current-currency"></span><input type="number" min="0" pattern="[0-9]" name="maxNet"></td>
+        </tr>
+    </table>
+</div>
+<div class="info message filter-message">
+    <p>Aw shucks.  None of the active columns are filterable.</p>
+</div>
+<div class="btn-container">
+    <a class="orange-btn" id="jsFilterButton" href="#">Filter</a>
+    <a class="orange-btn" id="jsFilterClearButton" href="#">Reset</a>
+    <a class="gray-btn" id="jsFilterCloseButton" href="#">Close</a>
+</div>
+
